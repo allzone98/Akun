@@ -84,8 +84,8 @@ proxy-groups:
 
 proxy-providers:
   SG:
-    type: file
-    url: http://www.gstatic.com/generate_204
+    type: http
+    url: https://github.com/allzone98/Akun/raw/main/SG.yaml
     path: ./SG.yaml
     health-check:
       enable: true
