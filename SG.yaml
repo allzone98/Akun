@@ -1,0 +1,40 @@
+proxies:
+  - name: OVH 1 ⚇
+    server: 104.17.2.81
+    port: 443
+    type: trojan
+    password: cfd34a60-6750-11ed-9da8-1239d0255272
+    skip-cert-verify: true
+    sni: sgovh-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sgovh-trojan.bonds.id
+    udp: true
+  - name: HE 1 ꕥ
+    server: 104.17.2.81
+    port: 443
+    type: trojan
+    password: cbb057b0-51b4-11ed-aa7a-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: HE 2 ꕥ
+    server: 104.17.2.81
+    port: 443
+    type: trojan
+    password: f069e000-5fbf-11ed-8d7b-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
+    udp: true

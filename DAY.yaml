@@ -1,0 +1,91 @@
+proxies:
+  - name: SG DigitalOcean❖
+    type: ss
+    server: 104.17.2.81
+    port: 443
+    cipher: 2022-blake3-aes-128-gcm
+    password: KqXquXaK0GYCxQ2mX7jLig==:BT8WCJxJlX0idQy1viYmbw==
+    udp-over-tcp: true
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: do1.kitu.xyz
+      path: /ssws/
+      tls: true
+      skip-cert-verify: true
+      mux: false
+      sni: do1.kitu.xyz
+  - name: Ocean OVH 2 ⚉
+    server: 104.17.2.81
+    port: 443
+    type: trojan
+    password: f1ab5c75-d789-4377-97cf-8b6543060704
+    skip-cert-verify: true
+    sni: sgt2.sshocean.net
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sgt2.sshocean.net
+    udp: true
+  - name: Dynamic Linode
+    server: 104.17.2.81
+    port: 443
+    type: vmess
+    uuid: 55a82d45-cd9b-4fea-8ecb-5c015e1df3d9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dynamic-sg2b.obfs.xyz
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: dynamic-sg2b.obfs.xyz
+    udp: true
+  - name: Digital Ocean
+    server: 104.17.2.81
+    port: 443
+    type: trojan
+    password: 582cf320-657a-11ed-a995-1239d0255272
+    skip-cert-verify: true
+    sni: trojan3.udpgw.com
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: trojan3.udpgw.com
+    udp: true
+  - name: sxtcp-OVH 1
+    server: 104.17.2.81
+    port: 443
+    type: vmess
+    uuid: 2ad6b590-54ed-4ab5-aa22-2e4b3afa66e4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgo-1.herbalv2ray.me
+    network: ws
+    ws-opts:
+      path: /herbalserver
+      headers:
+        Host: sgo-1.herbalv2ray.me
+    udp: true
+  - name: sxtcp-OVH
+    server: 104.17.2.81
+    port: 443
+    type: vmess
+    uuid: 42195223-bcb6-4017-8fe2-a7edb0f4a215
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgo-3.herbalv2ray.me
+    network: ws
+    ws-opts:
+      path: /herbalserver
+      headers:
+        Host: sgo-3.herbalv2ray.me
+    udp: true

@@ -1,0 +1,27 @@
+proxies:
+  - name: Biznet Banten ⚘
+    server: 104.17.2.81
+    port: 443
+    type: trojan
+    password: 6829b9f0-648c-11ed-866f-1239d0255272
+    skip-cert-verify: true
+    sni: id5-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
+    udp: true
+  - name: ID Herza ツ
+    server: 104.17.2.81
+    port: 443
+    type: trojan
+    password: 0eb04040-51b6-11ed-931c-1239d0255272
+    skip-cert-verify: true
+    sni: idtj-herza.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: idtj-herza.bonds.id
+    udp: true
