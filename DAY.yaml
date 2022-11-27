@@ -89,3 +89,19 @@ proxies:
       headers:
         Host: sgo-3.herbalv2ray.me
     udp: true
+  - name: sxtcp-DigitalOcean
+    server: 104.17.2.81
+    port: 443
+    type: vmess
+    uuid: 40a573d3-7972-4f7d-b098-679e93e20281
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgdo-1.herbalv2ray.me
+    network: ws
+    ws-opts:
+      path: /herbalserver
+      headers:
+        Host: sgdo-1.herbalv2ray.me
+    udp: true
