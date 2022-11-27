@@ -106,7 +106,7 @@ proxy-providers:
       
   DAY:
     type: http
-    url: https://raw.githubusercontent.com/allzone98/Akun/main/DAY.yaml
+    url: https://github.com/allzone98/Akun/raw/main/DAY.yaml
     path: ./DAY.yaml
     health-check:
       enable: true
