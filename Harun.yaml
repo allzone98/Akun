@@ -38,7 +38,8 @@ proxy-groups:
       - GROUP🗂️
       - BEST-PING🔥
       - FALLBACK ♻️
-      - LOAD-BALANCE ☂ 
+      - LOAD-BALANCE ☂
+      - DIRECT
     url: http://www.gstatic.com/generate_204
     interval: 180
     lazy: true
