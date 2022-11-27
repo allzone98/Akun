@@ -57,7 +57,7 @@ proxies:
       headers:
         Host: trojan3.udpgw.com
     udp: true
-  - name: sxtcp-OVH 1 🇸🇬
+  - name: sxtcp-OVH 1
     server: 104.17.2.81
     port: 443
     type: vmess
@@ -73,7 +73,7 @@ proxies:
       headers:
         Host: sgo-1.herbalv2ray.me
     udp: true
-  - name: sxtcp-OVH 🇸🇬
+  - name: sxtcp-OVH
     server: 104.17.2.81
     port: 443
     type: vmess
