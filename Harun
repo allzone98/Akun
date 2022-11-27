@@ -94,8 +94,8 @@ proxy-providers:
       url: 'http://connectivitycheck.gstatic.com/generate_204'
       
   ID:
-    type: file
-    url: http://www.gstatic.com/generate_204
+    type: http
+    url: https://github.com/allzone98/Akun/raw/main/ID.yaml
     path: ./ID.yaml
     health-check:
       enable: true
