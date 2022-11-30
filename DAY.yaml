@@ -50,12 +50,12 @@ proxies:
     type: trojan
     password: 3b803bd0-708c-11ed-8e61-1239d0255272
     skip-cert-verify: true
-    sni: trojan3.udpgw.com
+    sni: trojan1.udpgw.com
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: trojan3.udpgw.com
+        Host: trojan1.udpgw.com
     udp: true
   - name: sxtcp-OVH 1
     server: 104.17.2.81
