@@ -44,11 +44,11 @@ proxies:
       headers:
         Host: dynamic-sg2b.obfs.xyz
     udp: true
-  - name: Digital Ocean
+  - name: SG Linode 9
     server: 104.17.2.81
     port: 443
     type: trojan
-    password: 582cf320-657a-11ed-a995-1239d0255272
+    password: 3b803bd0-708c-11ed-8e61-1239d0255272
     skip-cert-verify: true
     sni: trojan3.udpgw.com
     network: ws
