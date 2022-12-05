@@ -57,11 +57,11 @@ proxies:
       headers:
         Host: trojan1.udpgw.com
     udp: true
-  - name: sxtcp-OVH 1
+  - name: sxtcp-OVH 2
     server: 104.17.2.81
     port: 443
     type: vmess
-    uuid: 2ad6b590-54ed-4ab5-aa22-2e4b3afa66e4
+    uuid: 99c26807-bba4-4ab6-89a9-0692f337f897
     alterId: 0
     cipher: auto
     tls: true
