@@ -66,12 +66,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgo-1.herbalv2ray.me
+    servername: sgo-2.herbalv2ray.me
     network: ws
     ws-opts:
       path: /herbalserver
       headers:
-        Host: sgo-1.herbalv2ray.me
+        Host: sgo-2.herbalv2ray.me
     udp: true
   - name: sxtcp-OVH 3
     server: 104.17.2.81
