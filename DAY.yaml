@@ -77,3 +77,20 @@ proxies:
       headers:
         Host: sgo-3.herbalv2ray.me
     udp: true
+
+  - name: sg2.v2-ray
+    server: 104.17.3.81
+    port: 443
+    type: vmess
+    uuid: b7b5cad0-8128-11ed-b139-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2.v2-ray.com
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: sg2.v2-ray.com
+    udp: true
