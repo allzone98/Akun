@@ -4,7 +4,7 @@ proxies:
     server: 104.17.2.81
     port: 443
     cipher: 2022-blake3-aes-128-gcm
-    password: KqXquXaK0GYCxQ2mX7jLig==:5uqXj4xi1fTcr15ynH5wwg==
+    password: KqXquXaK0GYCxQ2mX7jLig==:BASscwJxAvSHYDoL1ZDACg==
     udp-over-tcp: true
     plugin: v2ray-plugin
     plugin-opts:
