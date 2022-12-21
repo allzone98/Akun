@@ -94,16 +94,6 @@ proxy-providers:
       lazy: true
       url: 'http://connectivitycheck.gstatic.com/generate_204'
       
-  ID:
-    type: http
-    url: https://github.com/allzone98/Akun/raw/main/ID.yaml
-    path: ./ID.yaml
-    health-check:
-      enable: true
-      interval: 300
-      lazy: true
-      url: 'http://connectivitycheck.gstatic.com/generate_204'
-      
   DAY:
     type: http
     url: https://github.com/allzone98/Akun/raw/main/DAY.yaml
