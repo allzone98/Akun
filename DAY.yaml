@@ -15,6 +15,7 @@ proxies:
       skip-cert-verify: true
       mux: false
       sni: do1.kitu.xyz
+
   - name: Ocean OVH 2 ⚉
     server: 104.17.2.81
     port: 443
@@ -28,6 +29,7 @@ proxies:
       headers:
         Host: sgt2.sshocean.net
     udp: true
+
   - name: Dynamic Linode
     server: 104.17.2.81
     port: 443
@@ -44,6 +46,7 @@ proxies:
       headers:
         Host: dynamic-sg2b.obfs.xyz
     udp: true
+
   - name: SG Linode 9
     server: 104.17.2.81
     port: 443
@@ -57,22 +60,7 @@ proxies:
       headers:
         Host: trojan1.udpgw.com
     udp: true
-  - name: sxtcp-OVH 2
-    server: 104.17.2.81
-    port: 443
-    type: vmess
-    uuid: 99c26807-bba4-4ab6-89a9-0692f337f897
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgo-2.herbalv2ray.me
-    network: ws
-    ws-opts:
-      path: /herbalserver
-      headers:
-        Host: sgo-2.herbalv2ray.me
-    udp: true
+
   - name: sxtcp-OVH 3
     server: 104.17.2.81
     port: 443
@@ -89,6 +77,7 @@ proxies:
       headers:
         Host: sgo-3.herbalv2ray.me
     udp: true
+
   - name: sxtcp-DigitalOcean
     server: 104.17.2.81
     port: 443
@@ -104,20 +93,4 @@ proxies:
       path: /herbalserver
       headers:
         Host: sgdo-1.herbalv2ray.me
-    udp: true
-  - name: sg1-HE 1
-    server: 104.17.2.81
-    port: 443
-    type: vmess
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg1-v2ray.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/5011504456/638cae6c11282/
-      headers:
-        Host: sg1-v2ray.sshkit.org
     udp: true
