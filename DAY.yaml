@@ -30,21 +30,21 @@ proxies:
         Host: sgt2.sshocean.net
     udp: true
 
-  - name: Dynamic Linode
+  - name: dynamic-sg3b.obfs
     server: 104.17.2.81
     port: 443
     type: vmess
-    uuid: 55a82d45-cd9b-4fea-8ecb-5c015e1df3d9
+    uuid: 7ec06900-0c4e-4c3f-8d25-88320cdffdc9
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: dynamic-sg2b.obfs.xyz
+    servername: dynamic-sg3b.obfs.xyz
     network: ws
     ws-opts:
       path: /fastssh
       headers:
-        Host: dynamic-sg2b.obfs.xyz
+        Host: dynamic-sg3b.obfs.xyz
     udp: true
 
   - name: SG Linode 9
