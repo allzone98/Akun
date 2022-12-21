@@ -1,6 +1,6 @@
 proxies:
   - name: OVH 1 ⚇
-    server: 104.17.2.81
+    server: 104.17.3.81
     port: 443
     type: trojan
     password: cfd34a60-6750-11ed-9da8-1239d0255272
@@ -13,7 +13,7 @@ proxies:
         Host: sgovh-trojan.bonds.id
     udp: true
   - name: HE 1 ꕥ
-    server: 104.17.2.81
+    server: 104.17.3.81
     port: 443
     type: trojan
     password: cbb057b0-51b4-11ed-aa7a-1239d0255272
