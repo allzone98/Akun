@@ -20,7 +20,7 @@ proxies:
     server: 104.17.2.81
     port: 443
     type: trojan
-    password: d71191f6-7733-43b0-94a2-6a22a139303c
+    password: 7a12501f-ff8d-46a8-9560-f78135bded4c
     skip-cert-verify: true
     sni: sgt2.sshocean.net
     network: ws
