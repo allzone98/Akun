@@ -32,7 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxy-groups:
-  - name: FINAL🎭
+  - name: Expired TGL 28🎭
     type: select
     proxies:
       - GROUP🗂️
@@ -101,4 +101,4 @@ proxy-providers:
       url: 'http://connectivitycheck.gstatic.com/generate_204'
       
 rules:
-  - MATCH,FINAL🎭
+  - MATCH,Expired TGL 28🎭
