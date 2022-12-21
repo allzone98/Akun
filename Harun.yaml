@@ -48,7 +48,6 @@ proxy-groups:
     type: select
     use:
       - SG
-      - ID
       - DAY
     url: http://www.gstatic.com/generate_204
     interval: 180
@@ -61,7 +60,6 @@ proxy-groups:
     tolerance: 50
     use:
       - SG
-      - ID
       - DAY
 
   - name: FALLBACK ♻️
@@ -70,7 +68,6 @@ proxy-groups:
     interval: 300
     use:
       - SG
-      - ID
       - DAY
       
   - name: LOAD-BALANCE ☂
@@ -80,7 +77,6 @@ proxy-groups:
     interval: 300
     use:
       - SG
-      - ID
       - DAY
 
 proxy-providers:
