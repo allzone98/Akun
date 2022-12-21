@@ -47,18 +47,18 @@ proxies:
         Host: dynamic-sg3b.obfs.xyz
     udp: true
 
-  - name: SG Linode 9
-    server: 104.17.2.81
+  - name: Weekly Servers
+    server: 104.17.3.81
     port: 443
     type: trojan
-    password: 3b803bd0-708c-11ed-8e61-1239d0255272
+    password: f115f4e0-80eb-11ed-b55b-1239d0255272
     skip-cert-verify: true
-    sni: trojan1.udpgw.com
+    sni: trojan3.udpgw.com
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: trojan1.udpgw.com
+        Host: trojan3.udpgw.com
     udp: true
 
   - name: sxtcp-OVH 3
