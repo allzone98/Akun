@@ -30,21 +30,21 @@ proxies:
         Host: sgt2.sshocean.net
     udp: true
 
-  - name: dynamic-sg3b.obfs
-    server: 104.17.2.81
+  - name: real 3
+    server: 104.17.3.81
     port: 443
     type: vmess
-    uuid: 7ec06900-0c4e-4c3f-8d25-88320cdffdc9
+    uuid: e941b69b-8819-4192-b229-ba980ea62689
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: dynamic-sg3b.obfs.xyz
+    servername: sg01-vmess.realssh.xyz
     network: ws
-    ws-opts:
-      path: /fastssh
-      headers:
-        Host: dynamic-sg3b.obfs.xyz
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: sg01-vmess.realssh.xyz
     udp: true
 
   - name: Weekly Servers
