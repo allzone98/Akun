@@ -1,10 +1,10 @@
 proxies:
-  - name: SG DigitalOcean❖
+  - name: SG DigitalOcean 3
     type: ss
     server: 104.17.2.81
     port: 443
     cipher: 2022-blake3-aes-128-gcm
-    password: KqXquXaK0GYCxQ2mX7jLig==:BASscwJxAvSHYDoL1ZDACg==
+    password: KqXquXaK0GYCxQ2mX7jLig==:C4iAcUz913te37yPypquSg==
     udp-over-tcp: true
     plugin: v2ray-plugin
     plugin-opts:
@@ -16,7 +16,7 @@ proxies:
       mux: false
       sni: do1.kitu.xyz
 
-  - name: Ocean OVH 2 ⚉
+  - name: Ocean OVH 3
     server: 104.17.2.81
     port: 443
     type: trojan
@@ -78,7 +78,7 @@ proxies:
         Host: sgo-3.herbalv2ray.me
     udp: true
 
-  - name: sg2.v2-ray
+  - name: sg2.v2-ray 3
     server: 104.17.3.81
     port: 443
     type: vmess
