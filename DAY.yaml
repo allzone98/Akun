@@ -32,3 +32,17 @@ proxies:
       headers:
         Host: sg01-vmess.realssh.xyz
     udp: true
+
+  - name: sg3tws.main
+    server: 172.67.73.39
+    port: 443
+    type: trojan
+    password: mainssh-Kjbggggff
+    skip-cert-verify: true
+    sni: sg3tws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg3tws.mainssh.xyz
+    udp: true
