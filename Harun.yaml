@@ -47,7 +47,7 @@ proxy-groups:
   - name: GROUP🗂️
     type: select
     use:
-      - SG
+      - DAY
     url: http://www.gstatic.com/generate_204
     interval: 180
     lazy: true
@@ -58,14 +58,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     use:
-      - SG
+      - DAY
 
   - name: FALLBACK ♻️
     type: fallback
     url: 'http://connectivitycheck.gstatic.com/generate_204'
     interval: 300
     use:
-      - SG
+      - DAY
       
   - name: LOAD-BALANCE ☂
     type: load-balance
@@ -73,7 +73,7 @@ proxy-groups:
     url: 'http://connectivitycheck.gstatic.com/generate_204'
     interval: 300
     use:
-      - SG
+      - DAY
 
 proxy-providers:
   DAY:
