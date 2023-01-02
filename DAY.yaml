@@ -46,3 +46,19 @@ proxies:
       headers:
         Host: sg3tws.mainssh.xyz
     udp: true
+
+  - name: Server-OVH
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: e001ffe9-b9ad-445c-9c46-d29986a7683e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1ray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg1ray.serverip.my.id
+    udp: true
