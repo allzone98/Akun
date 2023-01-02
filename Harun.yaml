@@ -48,7 +48,6 @@ proxy-groups:
     type: select
     use:
       - SG
-      - DAY
     url: http://www.gstatic.com/generate_204
     interval: 180
     lazy: true
@@ -60,7 +59,6 @@ proxy-groups:
     tolerance: 50
     use:
       - SG
-      - DAY
 
   - name: FALLBACK ♻️
     type: fallback
@@ -68,7 +66,6 @@ proxy-groups:
     interval: 300
     use:
       - SG
-      - DAY
       
   - name: LOAD-BALANCE ☂
     type: load-balance
@@ -77,19 +74,8 @@ proxy-groups:
     interval: 300
     use:
       - SG
-      - DAY
 
 proxy-providers:
-  SG:
-    type: http
-    url: https://github.com/allzone98/Akun/raw/main/SG.yaml
-    path: ./SG.yaml
-    health-check:
-      enable: true
-      interval: 300 
-      lazy: true
-      url: 'http://connectivitycheck.gstatic.com/generate_204'
-      
   DAY:
     type: http
     url: https://github.com/allzone98/Akun/raw/main/DAY.yaml
