@@ -1,88 +1,9 @@
 proxies:
-  - name: SG DigitalOcean 3
-    type: ss
-    server: 104.17.2.81
-    port: 443
-    cipher: 2022-blake3-aes-128-gcm
-    password: KqXquXaK0GYCxQ2mX7jLig==:C4iAcUz913te37yPypquSg==
-    udp-over-tcp: true
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: do1.kitu.xyz
-      path: /ssws/
-      tls: true
-      skip-cert-verify: true
-      mux: false
-      sni: do1.kitu.xyz
-
-  - name: Ocean OVH 3
-    server: 104.17.2.81
-    port: 443
-    type: trojan
-    password: 7a12501f-ff8d-46a8-9560-f78135bded4c
-    skip-cert-verify: true
-    sni: sgt2.sshocean.net
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sgt2.sshocean.net
-    udp: true
-
-  - name: real 3
+  - name: sg2.v2
     server: 104.17.3.81
     port: 443
     type: vmess
-    uuid: e941b69b-8819-4192-b229-ba980ea62689
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg01-vmess.realssh.xyz
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: sg01-vmess.realssh.xyz
-    udp: true
-
-  - name: Weekly Servers
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: f115f4e0-80eb-11ed-b55b-1239d0255272
-    skip-cert-verify: true
-    sni: trojan3.udpgw.com
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: trojan3.udpgw.com
-    udp: true
-
-  - name: sxtcp-OVH 3
-    server: 104.17.2.81
-    port: 443
-    type: vmess
-    uuid: 9e4ceeb2-f728-4cd1-a4c8-608d1b5f3a02
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgo-3.herbalv2ray.me
-    network: ws
-    ws-opts:
-      path: /herbalserver
-      headers:
-        Host: sgo-3.herbalv2ray.me
-    udp: true
-
-  - name: sg2.v2-ray 3
-    server: 104.17.3.81
-    port: 443
-    type: vmess
-    uuid: dcac13d0-85cc-11ed-b434-205c6d5f5d78
+    uuid: 931f7a80-8a35-11ed-b835-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
