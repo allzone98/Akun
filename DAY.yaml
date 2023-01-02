@@ -15,3 +15,20 @@ proxies:
       headers:
         Host: sg2.v2-ray.com
     udp: true
+  
+  - name: real-OVH
+    server: 104.17.3.81
+    port: 443
+    type: vmess
+    uuid: 5947a261-fdff-4ab7-83d0-5c0d7a15939f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg01-vmess.realssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg01-vmess.realssh.xyz
+    udp: true
