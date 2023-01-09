@@ -37,7 +37,7 @@ proxies:
     server: 172.67.73.39
     port: 443
     type: trojan
-    password: mainssh-Kjbggggff
+    password: mainssh-Nnhjbhh
     skip-cert-verify: true
     sni: sg3tws.mainssh.xyz
     network: ws
