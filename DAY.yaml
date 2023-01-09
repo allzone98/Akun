@@ -47,18 +47,19 @@ proxies:
         Host: sg3tws.mainssh.xyz
     udp: true
 
-  - name: Server-OVH
-    server: 104.17.3.81
-    port: 443
-    type: vless
-    uuid: e001ffe9-b9ad-445c-9c46-d29986a7683e
+  - name: sg-ovh1
+    server: 172.67.73.39
+    port: 80
+    type: vmess
+    uuid: 2f5f6cd0-9027-11ed-b035-205c6d5f5d78
+    alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg1ray.serverip.my.id
+    tls: false
+    skip-cert-verify: false
+    servername: 
     network: ws
-    ws-opts:
-      path: /serverssh
-      headers:
-        Host: sg1ray.serverip.my.id
+    ws-opts: 
+      path: /fastssh
+      headers: 
+        Host: sg-ovh1.vmess.sbs
     udp: true
