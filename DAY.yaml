@@ -63,3 +63,17 @@ proxies:
       headers: 
         Host: sg-ovh1.vmess.sbs
     udp: true
+
+  - name: Only DigitalOcean
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: onlyssh-bhkkg
+    skip-cert-verify: true
+    sni: do2.kitu.xyz
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: do2.kitu.xyz
+    udp: true
